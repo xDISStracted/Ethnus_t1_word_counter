@@ -27,7 +27,7 @@ export class Paragraph extends Component
             <center>
                 <div>
                     <h1 style={{fontFamily: "Times New Roman"}}>Responsive Paragraph Word Counter</h1>
-                    <textarea name="para" id="para" cols="70" rows="10" placeholder="Enter the content here" onChange={this.handleChange}></textarea>
+                    <textarea name="para" id="para" cols="70" rows="10" placeholder="Type here..." onChange={this.handleChange}></textarea>
                     <p style={{fontFamily: "Times New Roman", fontSize:"20px"}}>Word Count: {this.state.count}</p>
                 </div>
             </center>
